@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Kernel — Resources</title>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>body{margin:0;background:#FFFFFF;color:#000000;font-family:'ABC Diatype',Inter,system-ui,sans-serif}
+a{color:inherit;text-decoration:none}a:hover{opacity:.65}
+.s{font-family:'ABC Diatype',Inter,system-ui,sans-serif;font-weight:500;letter-spacing:-0.035em}
+.b{display:inline-block;padding:14px 24px;border-radius:10px;font-size:16px;font-weight:500;background:#000000;color:#000000}
+.o{background:transparent;color:#000;border:1px solid #000}
+.t{font-family:'Aeonik Mono','IBM Plex Mono',ui-monospace,monospace;font-size:13px;position:absolute;display:flex;flex-direction:column;gap:8px;font-size:14px;color:#262626;animation:fl 7s ease-in-out infinite,fi 1.2s ease both}
+.t i{display:block;border-radius:14px;background:linear-gradient(135deg,#c2b09b,#8f7a64);border:1px solid #C7C7C7}
+.c{background:#EAEAEA;border:1px solid #C7C7C7;border-radius:20px}
+@keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-14px)}}
+@keyframes fi{from{opacity:0}to{opacity:1}}
+@keyframes up{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+@keyframes l{from{transform:translateX(0)}to{transform:translateX(-6vw)}}
+@keyframes r{from{transform:translate(0,0)}to{transform:translate(6vw,10px)}}
+@keyframes dr{from{stroke-dashoffset:600}to{stroke-dashoffset:0}}
+.t:nth-child(4n+1) i{background:#193A29}.t:nth-child(4n+2) i{background:#273252}.t:nth-child(4n+3) i{background:#79648C}.t:nth-child(4n) i{background:#C15F3C}.u{animation:up .9s ease both}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style><style>
+@keyframes up{from{opacity:0;transform:translateY(28px);filter:blur(8px)}to{opacity:1;transform:none;filter:none}}
+@keyframes mx{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@keyframes bl{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(60px,-40px) scale(1.2)}}
+nav a,footer a{background:linear-gradient(currentColor,currentColor) 0 100%/0 1px no-repeat;padding-bottom:3px;transition:background-size .35s ease}
+nav a:hover,footer a:hover{background-size:100% 1px;opacity:1}
+.b{position:relative;overflow:hidden;transition:transform .25s ease,box-shadow .25s ease}
+.b:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.18);opacity:1}
+.b::after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,transparent 30%,rgba(255,255,255,.45) 50%,transparent 70%);transform:translateX(-130%);transition:transform .7s ease}
+.b:hover::after{transform:translateX(130%)}
+.o:hover{background:#000;color:#fff}
+.c,.lc{transition:transform .35s cubic-bezier(.2,.8,.2,1),box-shadow .35s ease}
+.c:hover,.lc:hover{transform:translateY(-8px);box-shadow:0 24px 40px rgba(0,0,0,.18)}
+.t i{transition:transform .5s cubic-bezier(.2,.8,.2,1)}
+.t:hover i{transform:scale(1.1) rotate(-4deg)}
+.mqx{display:flex;gap:56px;width:max-content;animation:mx 32s linear infinite;font-family:'Aeonik Mono','IBM Plex Mono',monospace;font-size:14px;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap}
+.mqx:hover{animation-play-state:paused}
+.bb{position:absolute;border-radius:50%;filter:blur(70px);opacity:.45;animation:bl 14s ease-in-out infinite;pointer-events:none}
+@supports (animation-timeline:view()){.c.u,.lc.u{animation:up linear both;animation-timeline:view();animation-range:entry 0% entry 85%}}
+</style><style>.i1{background:url(assets/art-sunset.jpg) center/cover}body .t i.i1{background:url(assets/art-sunset.jpg) center/cover;border:0}.i2{background:url(assets/art-blue-stipple.jpg) center/cover}body .t i.i2{background:url(assets/art-blue-stipple.jpg) center/cover;border:0}.i3{background:url(assets/art-green-haze.jpg) center/cover}body .t i.i3{background:url(assets/art-green-haze.jpg) center/cover;border:0}.i4{background:url(assets/art-tan-hills.jpg) center/cover}body .t i.i4{background:url(assets/art-tan-hills.jpg) center/cover;border:0}.i5{background:url(assets/art-lavender-waves.jpg) center/cover}body .t i.i5{background:url(assets/art-lavender-waves.jpg) center/cover;border:0}.i6{background:url(assets/art-terracotta-hills.jpg) center/cover}body .t i.i6{background:url(assets/art-terracotta-hills.jpg) center/cover;border:0}.i7{background:url(assets/art-navy-glow.jpg) center/cover}body .t i.i7{background:url(assets/art-navy-glow.jpg) center/cover;border:0}.i8{background:url(assets/art-clouds.jpg) center/cover}body .t i.i8{background:url(assets/art-clouds.jpg) center/cover;border:0}@keyframes kb{from{transform:scale(1.02)}to{transform:scale(1.16) rotate(.4deg)}}
+@keyframes cp{from{clip-path:inset(0 0 100% 0)}to{clip-path:inset(0)}}
+@keyframes sh{to{background-position:300% 0}}
+.imc{overflow:hidden;border-radius:12px}
+.imk{width:100%;animation:kb 16s ease-in-out infinite alternate}
+@supports (animation-timeline:view()){.imc{animation:cp linear both;animation-timeline:view();animation-range:entry 0% entry 80%}}
+</style><style>
+@property --a{syntax:'<angle>';inherits:false;initial-value:0deg}
+@keyframes rot{to{--a:360deg}}
+@keyframes sp{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@keyframes dn{from{opacity:0;transform:translateY(-18px)}to{opacity:1;transform:none}}
+@keyframes pr{0%{box-shadow:0 0 0 0 rgba(193,95,60,.55)}100%{box-shadow:0 0 0 20px rgba(193,95,60,0)}}
+@keyframes rp{from{transform:scale(.4);opacity:.8}to{transform:scale(2.4);opacity:0}}
+header{animation:dn .8s cubic-bezier(.2,.8,.2,1) both}
+header a img{transition:transform .5s cubic-bezier(.2,.8,.2,1)}
+header a:hover img{transform:rotate(-14deg) scale(1.15)}
+.c,.lc{position:relative}
+.c::after,.lc::after{content:"";position:absolute;inset:0;border-radius:inherit;padding:2px;pointer-events:none;opacity:0;transition:opacity .35s;background:conic-gradient(from var(--a),#C15F3C,#79648C,#839CB2,#D97757,#C15F3C);-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;animation:rot 3.5s linear infinite}
+.c:hover::after,.lc:hover::after{opacity:1}
+.pulse{animation:pr 2s ease-out infinite}
+.pulse:hover{animation:none}
+.ob:hover,section:hover .rc{animation-play-state:paused}
+section:hover [style*="animation:ring"]{animation-play-state:paused}
+.rp{position:absolute;width:260px;height:260px;margin:-130px 0 0 -130px;border:1px solid #929292;border-radius:50%;animation:rp 5s ease-out infinite;pointer-events:none}
+.s.u[style*="white-space:nowrap"]{transition:color .3s,transform .3s}
+.s.u[style*="white-space:nowrap"]:hover{color:#C15F3C}
+label:focus-within{border-color:#C15F3C!important;box-shadow:0 0 0 4px rgba(193,95,60,.22)}
+label{transition:box-shadow .3s,border-color .3s}
+.cta>*{position:relative}
+.fade{-webkit-mask-image:linear-gradient(90deg,transparent,#000 10%,#000 90%,transparent);mask-image:linear-gradient(90deg,transparent,#000 10%,#000 90%,transparent)}
+@supports (animation-timeline:scroll()){body::before{content:"";position:fixed;top:0;left:0;width:100%;height:3px;background:#C15F3C;transform-origin:0 50%;z-index:50;animation:sp linear both;animation-timeline:scroll(root)}}
+</style><style>
+@keyframes wob{0%,100%{transform:rotate(-2deg)}50%{transform:rotate(2deg) translateY(-6px)}}
+@keyframes grad{to{background-position:300% 0}}
+@keyframes tw{0%,100%{opacity:.25;transform:scale(.7)}50%{opacity:1;transform:scale(1.2)}}
+@keyframes ln{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@keyframes ob2{to{transform:rotate(360deg)}}
+@keyframes cur{50%{opacity:0}}
+.sp{position:absolute;color:#C15F3C;animation:tw 3s ease-in-out infinite;pointer-events:none;font-size:22px}
+.gt{background:linear-gradient(90deg,#000,#C15F3C,#79648C,#273252,#000);background-size:300% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:grad 7s linear infinite}
+.ul{position:relative;display:inline-block}
+.ul::after{content:"";position:absolute;left:0;right:0;bottom:-6px;height:4px;border-radius:2px;background:#C15F3C;transform-origin:0 50%;animation:ln 1.2s .9s cubic-bezier(.2,.8,.2,1) both}
+.cur::after{content:"";display:inline-block;width:3px;height:.9em;margin-left:6px;background:#C15F3C;vertical-align:-.05em;animation:cur 1s steps(1) infinite}
+.sh{background:linear-gradient(110deg,#000 40%,#C15F3C 50%,#000 60%);background-size:250% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:grad 5s linear infinite}
+.imc:hover .imk{filter:saturate(1.4) contrast(1.05)}
+.imk{transition:filter .5s}
+.t:nth-child(odd) span{animation:fi 1s .6s both}
+.hx{display:inline-block;animation:wob 6s ease-in-out infinite}
+.sk{display:block;height:100%;background:linear-gradient(100deg,transparent 30%,rgba(255,255,255,.5) 50%,transparent 70%);animation:grad 2.4s linear infinite;background-size:300% 100%}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style><style>
+@keyframes hu{from{filter:hue-rotate(-20deg) saturate(1)}to{filter:hue-rotate(25deg) saturate(1.3)}}
+@keyframes mk{to{background-size:100% .38em}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+@keyframes slide{from{opacity:0;transform:translateX(-30px)}to{opacity:1;transform:none}}
+@keyframes zoomin{from{opacity:0;transform:scale(.92)}to{opacity:1;transform:none}}
+@keyframes arr{0%,100%{transform:translateX(0)}50%{transform:translateX(6px)}}
+@keyframes ticker{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@keyframes shake{0%,100%{transform:rotate(0)}20%{transform:rotate(-3deg)}40%{transform:rotate(3deg)}60%{transform:rotate(-2deg)}80%{transform:rotate(2deg)}}
+.ob{animation:orb 44s linear infinite,hu 9s ease-in-out infinite alternate}
+header nav a{animation:dn .6s cubic-bezier(.2,.8,.2,1) both}
+header nav a:nth-child(1){animation-delay:.1s}header nav a:nth-child(2){animation-delay:.17s}header nav a:nth-child(3){animation-delay:.24s}header nav a:nth-child(4){animation-delay:.31s}header nav a:nth-child(5){animation-delay:.38s}header nav a:nth-child(6){animation-delay:.45s}header nav a:nth-child(7){animation-delay:.52s}
+.bdg{position:absolute;width:130px;height:130px;pointer-events:none;animation:spin 18s linear infinite;z-index:2}
+.bdg text{font-family:'Aeonik Mono','IBM Plex Mono',monospace;font-size:11px;letter-spacing:.22em;fill:#000;text-transform:uppercase}
+.orbw{position:absolute;width:0;height:0;animation:spin var(--t) linear infinite;pointer-events:none}
+.orbw i{position:absolute;left:var(--r);top:0;width:10px;height:10px;margin:-5px;border-radius:50%;background:#C15F3C}
+.orbw.b2 i{background:#79648C;width:14px;height:14px;margin:-7px}
+.toc a{transition:padding .3s,color .3s,background .3s}
+.toc a:hover{padding-left:22px;color:#C15F3C;opacity:1;background:rgba(0,0,0,.03)}
+.ar{display:inline-block;transition:transform .3s}a:hover .ar{animation:arr .8s ease-in-out infinite}
+.imc:nth-child(even) .imk{animation-direction:alternate-reverse}
+.imc:nth-child(3n) .imk{animation-duration:22s}
+.tick{display:flex;gap:40px;width:max-content;animation:ticker 40s linear infinite;font-family:'Aeonik Mono','IBM Plex Mono',monospace;font-size:13px;letter-spacing:.1em;text-transform:uppercase;white-space:nowrap}
+.tick:hover{animation-play-state:paused}
+.rd{position:absolute;opacity:0;pointer-events:none}
+.chip{display:inline-block;padding:10px 20px;border:1px solid #000;border-radius:999px;font-size:14px;cursor:pointer;transition:background .25s,color .25s,transform .25s}
+.chip:hover{transform:translateY(-2px)}
+.nc{animation:zoomin .6s cubic-bezier(.2,.8,.2,1) both}
+.cat{font-family:'Aeonik Mono','IBM Plex Mono',monospace;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:#4a4a4a}
+.ncard{display:block}
+.ncard:hover{opacity:1}
+.ncard h3{transition:color .3s}.ncard:hover h3{color:#C15F3C}
+.ncard .imc{border-radius:14px}
+.shk:hover{animation:shake .5s}
+footer::before{content:"";display:block;height:1px;background:#000;margin:-48px 0 48px;transform-origin:0 50%}
+@supports (animation-timeline:view()){
+h2,h3,.pp,.toc a,.ncard,.chip{animation:up linear both;animation-timeline:view();animation-range:entry 0% entry 65%}
+.pp strong{background:linear-gradient(rgba(217,119,87,.45),rgba(217,119,87,.45)) 0 92%/0 .38em no-repeat;animation:mk linear both;animation-timeline:view();animation-range:entry 30% cover 40%}
+footer::before{animation:ln linear both;animation-timeline:view();animation-range:entry 0% entry 100%}
+.ncard.l{animation-name:slide}.ncard.r{animation-name:zoomin}
+}
+.c.u:nth-child(2){animation-delay:.12s}.c.u:nth-child(3){animation-delay:.24s}.c.u:nth-child(4){animation-delay:.36s}
+</style><style>.bb{z-index:-1}.cta>.bb,.c>.bb{position:absolute}.cta,section:has(>.bb){isolation:isolate;position:relative}</style><style>.i9{background:url(assets/feature-code.jpg) center/cover}body .t i.i9{background:url(assets/feature-code.jpg) center/cover;border:0}.i10{background:url(assets/feature-voice.jpg) center/cover}body .t i.i10{background:url(assets/feature-voice.jpg) center/cover;border:0}.i11{background:url(assets/feature-write.jpg) center/cover}body .t i.i11{background:url(assets/feature-write.jpg) center/cover;border:0}.i12{background:url(assets/feature-learn.jpg) center/cover}body .t i.i12{background:url(assets/feature-learn.jpg) center/cover;border:0}.i13{background:url(assets/feature-search.jpg) center/cover}body .t i.i13{background:url(assets/feature-search.jpg) center/cover;border:0}.i14{background:url(assets/feature-plan.jpg) center/cover}body .t i.i14{background:url(assets/feature-plan.jpg) center/cover;border:0}.i15{background:url(assets/feature-analyze.jpg) center/cover}body .t i.i15{background:url(assets/feature-analyze.jpg) center/cover;border:0}.i16{background:url(assets/feature-vision.jpg) center/cover}body .t i.i16{background:url(assets/feature-vision.jpg) center/cover;border:0}.i17{background:url(assets/feature-memory.jpg) center/cover}body .t i.i17{background:url(assets/feature-memory.jpg) center/cover;border:0}.i18{background:url(assets/feature-translate.jpg) center/cover}body .t i.i18{background:url(assets/feature-translate.jpg) center/cover;border:0}
+.bg{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:230px;grid-auto-flow:dense;gap:16px}
+.bt{position:relative;overflow:hidden;border-radius:22px;display:block;background:#EAEAEA}
+.bt .imk{position:absolute;inset:0;height:100%;animation-duration:22s}
+.bt::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 55%,rgba(0,0,0,.35));opacity:0;transition:opacity .4s}
+.bt:hover::after{opacity:1}.bt:hover .imk{animation-duration:9s}
+.bt .lb{position:absolute;left:16px;bottom:16px;z-index:2;background:#fff;color:#000;border-radius:999px;padding:8px 14px;font-size:14px;font-weight:500;transition:transform .35s}
+.bt:hover .lb{transform:translateY(-6px)}
+@media (max-width:800px){.bg{grid-template-columns:1fr 1fr}.bg>*{grid-column:auto!important;grid-row:auto!important}}
+@keyframes ssf{0%{opacity:0}3%,16%{opacity:1}20%,100%{opacity:0}}
+.ss{position:absolute;inset:0;opacity:0;animation:ssf 24s infinite}
+@keyframes wv{0%,100%{transform:scaleY(.2)}50%{transform:scaleY(1)}}
+.wvb{display:flex;align-items:center;justify-content:center;gap:5px;height:150px}
+.wvb i{width:5px;border-radius:3px;background:#000;animation:wv 1.2s ease-in-out infinite}
+.in{border:1px solid #C7C7C7;border-radius:12px;padding:14px 16px;font-size:16px;outline:none;font-family:inherit;background:#fff;transition:border-color .25s,box-shadow .25s}
+.in:focus{border-color:#C15F3C;box-shadow:0 0 0 4px rgba(193,95,60,.2)}
+.fb{display:flex;align-items:center;justify-content:center;gap:10px;text-align:center}
+.tabs{display:flex;gap:2px;background:#EAEAEA;border-radius:999px;padding:3px;align-self:flex-start}
+.tabs label{padding:8px 22px;border-radius:999px;font-size:14px;font-weight:500;cursor:pointer;color:#4a4a4a;transition:background .3s,color .3s}
+#si:checked ~ .tabs label[for=si],#su:checked ~ .tabs label[for=su]{background:#fff;color:#000;box-shadow:0 1px 4px rgba(0,0,0,.14)}
+#su:checked ~ .pu{display:none!important}#su:checked ~ .ps{display:flex!important}
+</style><style>
+:focus-visible{outline:2px solid #C15F3C;outline-offset:3px;border-radius:6px}
+.c:hover,.lc:hover{transform:perspective(1000px) rotateX(2.5deg) rotateY(-3deg) translateY(-8px)}
+.imc{position:relative}
+.imc::before{content:"";position:absolute;inset:0;z-index:2;pointer-events:none;background:linear-gradient(105deg,transparent 40%,rgba(255,255,255,.38) 50%,transparent 60%);transform:translateX(-130%);transition:transform .9s ease}
+.imc:hover::before{transform:translateX(130%)}
+.cmp,.pill{position:relative}
+.cmp::after,.pill::after{content:"";position:absolute;inset:-1px;border-radius:inherit;padding:2px;pointer-events:none;opacity:0;transition:opacity .35s;background:conic-gradient(from var(--a),#C15F3C,#79648C,#839CB2,#D97757,#C15F3C);-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;animation:rot 4s linear infinite}
+.cmp:focus-within::after,.pill:focus-within::after{opacity:1}
+.phw{position:relative;flex:1;display:flex;min-width:0}.phw input{width:100%}
+.phw .ph{position:absolute;left:0;top:50%;color:#5e5e5e;pointer-events:none;opacity:0;font-size:inherit;white-space:nowrap;animation:phc 12s infinite}
+@keyframes phc{0%{opacity:0;transform:translateY(-20%)}3%,22%{opacity:1;transform:translateY(-50%)}25%,100%{opacity:0;transform:translateY(-80%)}}
+.phw input:focus ~ .ph,.phw input:not(:placeholder-shown) ~ .ph{display:none}
+footer::before{display:none!important}
+.fwr{height:clamp(110px,19vw,280px);overflow:hidden;margin-top:56px}
+.fw{font-family:'ABC Diatype',Inter,system-ui,sans-serif;font-weight:500;font-size:clamp(130px,25vw,360px);line-height:.8;letter-spacing:-0.06em;text-align:center;color:#27523b;user-select:none}
+.fm:focus-within{border-color:#D97757!important}
+</style><style>
+::selection{background:#C15F3C;color:#000}
+*{scrollbar-width:thin;scrollbar-color:#C7C7C7 transparent}
+a:active,.b:active,.sc:active,.ib:active,.rl:active,.chip:active,.btn2:active,.sn:active{transform:scale(.96)}
+[data-tip]{position:relative}
+[data-tip]::after{content:attr(data-tip);position:absolute;left:50%;top:calc(100% + 8px);transform:translateX(-50%) translateY(-4px);background:#000;color:#fff;font-size:12px;font-weight:400;padding:6px 10px;border-radius:8px;white-space:nowrap;opacity:0;pointer-events:none;transition:opacity .2s,transform .2s;z-index:60}
+[data-tip]:hover::after{opacity:1;transform:translateX(-50%)}
+nav [data-tip]::after{left:calc(100% + 10px);top:50%;transform:translateY(-50%) translateX(-4px)}
+nav [data-tip]:hover::after{transform:translateY(-50%)}
+.kb{font-family:'Aeonik Mono','IBM Plex Mono',monospace;font-size:12px;border:1px solid #C7C7C7;border-bottom-width:2px;border-radius:6px;padding:2px 7px;background:#fff;color:#262626;display:inline-block}
+@keyframes fill{from{width:0}}
+@keyframes toast{0%,6%{opacity:0;transform:translate(-50%,-24px)}12%,40%{opacity:1;transform:translate(-50%,0)}46%,100%{opacity:0;transform:translate(-50%,-24px)}}
+@keyframes swp{0%,15%{transform:translateX(0)}28%,45%{transform:translateX(-168px)}58%,70%{transform:translateX(0)}82%,92%{transform:translateX(84px)}100%{transform:translateX(0)}}
+@keyframes vis{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+@keyframes slideup{from{transform:translateY(120%)}to{transform:none}}
+.btt{position:fixed;right:24px;bottom:24px;width:48px;height:48px;border-radius:50%;background:#000;color:#fff;display:none;align-items:center;justify-content:center;z-index:40;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+@supports (animation-timeline:scroll()){.btt{display:flex;animation:vis linear both;animation-timeline:scroll(root);animation-range:0 25vh}}
+.m1[style*="align-self:flex-end"]{position:relative}
+.m1[style*="align-self:flex-end"]::before{content:"Edit  ·  Copy";position:absolute;right:calc(100% + 12px);top:50%;transform:translateY(-50%) translateX(6px);font-size:13px;color:#4a4a4a;white-space:pre;opacity:0;transition:opacity .25s,transform .25s}
+.m1[style*="align-self:flex-end"]:hover::before{opacity:1;transform:translateY(-50%)}
+.ckb{position:fixed;left:50%;bottom:20px;transform:translateX(-50%);width:min(760px,calc(100% - 32px));background:#fff;border:1px solid #C7C7C7;border-radius:18px;box-shadow:0 20px 60px rgba(0,0,0,.2);padding:18px 22px;display:flex;flex-wrap:wrap;gap:14px;align-items:center;justify-content:space-between;z-index:45;animation:slideup .8s 1.2s cubic-bezier(.2,.8,.2,1) both}
+#ck:checked ~ .ckb{display:none}
+.footer-fw{color:#27523b}
+</style><style>
+.b{background:linear-gradient(135deg,#C15F3C 0%,#D97757 100%);color:#000;border:0;box-shadow:0 6px 18px rgba(193,95,60,.32),inset 0 1px 0 rgba(255,255,255,.35);letter-spacing:-.005em;cursor:pointer}
+.b:hover{box-shadow:0 12px 28px rgba(193,95,60,.42),inset 0 1px 0 rgba(255,255,255,.4)}
+.b:active{transform:translateY(0) scale(.97)}
+.b.o{background:rgba(255,255,255,.72);color:#000;border:1px solid #C7C7C7;box-shadow:0 1px 2px rgba(0,0,0,.05)}
+.b.o:hover{background:#fff;border-color:#000;box-shadow:0 10px 24px rgba(0,0,0,.12)}
+.o:hover{background:#fff;color:#000}
+.b .ar{margin-left:8px;font-size:1.05em}
+.b:hover .ar{animation:arr .8s ease-in-out infinite}
+.btn2{background:#EAEAEA;border-color:transparent;color:#000}
+.btn2:hover{background:#DCDCDC;color:#000;border-color:transparent}
+.btn2.dg{background:#F7E6DF;color:#A94B2B}.btn2.dg:hover{background:#A94B2B;color:#fff}
+.opt input:checked + .tn{background:#193A29;border-color:#193A29;color:#fff}
+.btt{background:linear-gradient(135deg,#C15F3C,#D97757);color:#000;box-shadow:0 10px 30px rgba(193,95,60,.4)}
+[data-tip]::after{background:#193A29}
+.sw{position:relative;width:46px;height:28px;flex:none;display:inline-block}.sw input{position:absolute;opacity:0;inset:0;cursor:pointer;margin:0;z-index:1;width:100%;height:100%}
+.sw i{position:absolute;inset:0;border-radius:999px;background:#C7C7C7;transition:background .3s}
+.sw i::after{content:"";position:absolute;left:3px;top:3px;width:22px;height:22px;border-radius:50%;background:#fff;box-shadow:0 1px 3px rgba(0,0,0,.3);transition:transform .3s cubic-bezier(.2,.8,.2,1)}
+.sw input:checked + i{background:#193A29}.sw input:checked + i::after{transform:translateX(18px)}
+.cmp:has(input:placeholder-shown) .sd{background:#E6CFC6;animation:none}
+.pill:has(input:placeholder-shown) .go{background:#E6CFC6}
+.in:not(:placeholder-shown):invalid{border-color:#A94B2B;box-shadow:0 0 0 4px rgba(169,75,43,.15)}
+.hint{font-size:13px;color:#4a4a4a;line-height:1.4}
+.pws{display:flex;gap:6px;margin-top:2px}.pws i{flex:1;height:4px;border-radius:2px;background:#E3E3E3}.pws i:nth-child(-n+2){background:#C15F3C}
+.skip{position:absolute;left:16px;top:-64px;background:#193A29;color:#fff;padding:10px 16px;border-radius:10px;z-index:100;font-size:14px;transition:top .2s}.skip:focus{top:12px;opacity:1}
+</style><style>
+.mn{font-family:'Aeonik Mono','IBM Plex Mono',monospace;font-size:13px;color:#4a4a4a;padding-top:3px}
+.pp{display:grid;grid-template-columns:44px 1fr;gap:8px;margin:0 0 18px;font-size:17px;line-height:1.65;color:#262626}.pp p{margin:0}.pp strong{color:#000;font-weight:600}
+.toc a{display:flex;gap:16px;padding:14px 8px;border-bottom:1px solid #C7C7C7;font-size:17px}.toc b{font-family:'Aeonik Mono','IBM Plex Mono',monospace;font-weight:400;font-size:13px;color:#4a4a4a;min-width:24px;padding-top:3px}
+html{scroll-behavior:smooth}
+</style><style>
+@keyframes aigs{0%{opacity:0}6%,46%{opacity:1}54%,100%{opacity:0}}
+@keyframes aura{0%,100%{transform:scale(1);opacity:.8}50%{transform:scale(1.12);opacity:1}}
+@keyframes breathe{0%,100%{transform:scale(1)}50%{transform:scale(1.07)}}
+@keyframes rg{from{transform:scale(1);opacity:.7}to{transform:scale(2.1);opacity:0}}
+@keyframes d1{0%,100%{transform:translate(-30%,-22%) scale(1)}50%{transform:translate(22%,30%) scale(1.3)}}
+@keyframes d2{0%,100%{transform:translate(32%,28%) scale(1.1)}50%{transform:translate(-26%,-18%) scale(.9)}}
+@keyframes d3{0%,100%{transform:translate(28%,-26%) scale(.95)}50%{transform:translate(-24%,26%) scale(1.25)}}
+@keyframes d4{0%,100%{transform:translate(-28%,30%) scale(1.15)}50%{transform:translate(30%,-24%) scale(.9)}}
+@keyframes aur{0%,100%{background-position:0% 50%}50%{background-position:100% 50%}}
+.aig{position:fixed;inset:0;pointer-events:none;z-index:70;opacity:0;transition:opacity .9s ease}
+.aig::before,.aig::after{content:"";position:absolute;inset:0;background:conic-gradient(from var(--a),#D97757,#C15F3C,#79648C,#839CB2,#273252,#D97757);-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;animation:rot 6s linear infinite}
+.aig::before{padding:18px;filter:blur(24px)}
+.aig::after{padding:3px;filter:blur(1.5px);opacity:.9}
+.aig.on{opacity:1}.aig.loop{animation:aigs 14s ease-in-out infinite}
+body:has(.cmp:focus-within) .aig.f,body:has(.pill:focus-within) .aig.f,body:has(.b.pulse:hover) .aig.f,body:has(#glow:checked) .aig.f{opacity:1}
+.b{position:relative;overflow:hidden}
+.b::before{content:"";position:absolute;left:50%;top:50%;width:0;height:0;border-radius:50%;background:rgba(255,255,255,.5);transform:translate(-50%,-50%);opacity:0;pointer-events:none}
+.b:active::before{width:260%;padding-bottom:260%;height:0;opacity:1;transition:width .45s ease-out,padding .45s ease-out,opacity .6s}
+.hi{position:relative}.hi.on::before{content:"";position:absolute;left:0;top:26%;bottom:26%;width:3px;border-radius:2px;background:#C15F3C}
+.sw i::after{transition:transform .45s cubic-bezier(.3,1.6,.5,1)}
+.orb{position:relative;width:300px;height:300px;border-radius:50%;overflow:hidden;isolation:isolate;background:radial-gradient(circle at 35% 30%,#8d78b8 0%,#273252 72%);box-shadow:0 40px 90px rgba(193,95,60,.35),0 0 0 1px rgba(255,255,255,.35),inset 0 0 50px rgba(255,255,255,.22);animation:breathe 2.6s ease-in-out infinite}
+.orb i{position:absolute;left:15%;top:15%;width:70%;height:70%;border-radius:50%;filter:blur(26px);mix-blend-mode:screen}
+.orb::after{content:"";position:absolute;inset:0;border-radius:50%;background:radial-gradient(ellipse at 30% 18%,rgba(255,255,255,.6),transparent 42%),radial-gradient(circle at 50% 125%,rgba(0,0,0,.4),transparent 55%)}
+.rg{position:absolute;left:50%;top:50%;width:300px;height:300px;margin:-150px 0 0 -150px;border-radius:50%;border:1.5px solid rgba(121,100,140,.55);animation:rg 4.5s ease-out infinite;pointer-events:none}
+.gbtn{display:inline-flex;gap:8px;align-items:center;background:#fff;border-radius:999px;padding:12px 22px;font-size:15px;cursor:pointer;box-shadow:0 6px 24px rgba(0,0,0,.08);transition:transform .25s,box-shadow .25s}.gbtn:hover{transform:translateY(-2px);box-shadow:0 12px 32px rgba(0,0,0,.14)}
+.gbtn .on2{display:none}#g:checked ~ .gc .gbtn .on2{display:inline}#g:checked ~ .gc .gbtn .off{display:none}
+#g:checked ~ .aig{opacity:1}
+</style></head><body>
+<div style="min-height:1100px;background:#FFFFFF;position:relative;overflow:hidden"><a class="skip" href="#main">Skip to content</a><header style="max-width:1240px;margin:0 auto;padding:24px 32px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;position:relative;z-index:2"><a class="s" href="Main.html" style="font-size:26px;display:flex;align-items:center;gap:10px"><span style="display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:10px;background:#f4f3ee;flex:none"><img src="assets/kernel-logo.png" alt="" style="width:26px;height:auto"></span>Kernel</a><nav style="display:flex;flex-wrap:wrap;gap:28px;font-size:15px"><a href="Main.html">Home</a><a href="Product.html">Product</a><a href="Resources.html">Resources</a><a href="News.html">News</a><a href="Solutions.html">Solutions</a><a href="Platform.html">Platform</a><a href="Get.html">Get Kernel</a></nav><a class="b" href="Get.html" style="padding:10px 18px;font-size:15px">Try Kernel <span class="ar">→</span></a></header><section id="main" style="max-width:1240px;margin:0 auto;padding:64px 32px 32px;text-align:center;display:flex;flex-direction:column;align-items:center;gap:24px;background-image:linear-gradient(#EAEAEA 1px,transparent 1px),linear-gradient(90deg,#EAEAEA 1px,transparent 1px);background-size:150px 150px"><div class="bb" style="left:8%;top:40px;width:320px;height:320px;background:#D97757"></div><div class="bb" style="right:6%;top:160px;width:360px;height:360px;background:#79648C;animation-delay:-6s"></div>
+<h1 class="s u" style="margin:0;font-size:clamp(48px,8vw,104px);line-height:1"><span class="gt">Kernel</span> Resources</h1>
+<p class="u" style="margin:0;font-size:22px;line-height:1.5;color:#262626;max-width:640px;animation-delay:.3s">Explore what’s new, learn the workflows, and see what Kernel can do for you, all in one place.</p>
+<label class="u" style="display:flex;gap:12px;align-items:center;border:1px solid #929292;border-radius:14px;padding:14px 20px;width:100%;max-width:400px;box-sizing:border-box;animation-delay:.6s"><span class="visually" style="color:#262626;font-size:16px">Search</span><input aria-label="Search Kernel resources" placeholder="Search Kernel" style="flex:1;background:transparent;border:0;color:#000000;font-size:16px;outline:none"></label></section>
+<section style="max-width:1240px;margin:0 auto;padding:32px;display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:24px;position:relative;z-index:1"><div class="c u" style="overflow:hidden"><div class="imc" style="border-radius:0"><div class="imk i9" style="height:150px"></div></div><div style="display:flex;justify-content:space-between;padding:16px 20px;border-bottom:1px solid #C7C7C7;font-size:13px;color:#262626;font-family:'Aeonik Mono','IBM Plex Mono',ui-monospace,monospace"><span>Article</span><span>[DATE]</span></div><div class="s" style="padding:20px;font-size:28px;line-height:1.15;min-height:120px">Getting started with Kernel</div></div><div class="c u" style="overflow:hidden"><div class="imc" style="border-radius:0"><div class="imk i10" style="height:150px"></div></div><div style="display:flex;justify-content:space-between;padding:16px 20px;border-bottom:1px solid #C7C7C7;font-size:13px;color:#262626;font-family:'Aeonik Mono','IBM Plex Mono',ui-monospace,monospace"><span>Webinar</span><span>[DATE]</span></div><div class="s" style="padding:20px;font-size:28px;line-height:1.15;min-height:120px">Kernel for teams</div></div><div class="c u" style="overflow:hidden"><div class="imc" style="border-radius:0"><div class="imk i11" style="height:150px"></div></div><div style="display:flex;justify-content:space-between;padding:16px 20px;border-bottom:1px solid #C7C7C7;font-size:13px;color:#262626;font-family:'Aeonik Mono','IBM Plex Mono',ui-monospace,monospace"><span>Article</span><span>[DATE]</span></div><div class="s" style="padding:20px;font-size:28px;line-height:1.15;min-height:120px">Kernel for students</div></div><div class="c u" style="overflow:hidden"><div class="imc" style="border-radius:0"><div class="imk i12" style="height:150px"></div></div><div style="display:flex;justify-content:space-between;padding:16px 20px;border-bottom:1px solid #C7C7C7;font-size:13px;color:#262626;font-family:'Aeonik Mono','IBM Plex Mono',ui-monospace,monospace"><span>Guide</span><span>[DATE]</span></div><div class="s" style="padding:20px;font-size:28px;line-height:1.15;min-height:120px">Writing better prompts</div></div><div class="c u" style="overflow:hidden"><div class="imc" style="border-radius:0"><div class="imk i13" style="height:150px"></div></div><div style="display:flex;justify-content:space-between;padding:16px 20px;border-bottom:1px solid #C7C7C7;font-size:13px;color:#262626;font-family:'Aeonik Mono','IBM Plex Mono',ui-monospace,monospace"><span>Article</span><span>[DATE]</span></div><div class="s" style="padding:20px;font-size:28px;line-height:1.15;min-height:120px">Kernel for developers</div></div><div class="c u" style="overflow:hidden"><div class="imc" style="border-radius:0"><div class="imk i14" style="height:150px"></div></div><div style="display:flex;justify-content:space-between;padding:16px 20px;border-bottom:1px solid #C7C7C7;font-size:13px;color:#262626;font-family:'Aeonik Mono','IBM Plex Mono',ui-monospace,monospace"><span>Webinar</span><span>[DATE]</span></div><div class="s" style="padding:20px;font-size:28px;line-height:1.15;min-height:120px">What’s new in Kernel</div></div></section><a class="btt" href="#" aria-label="Back to top" data-tip="Back to top"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg></a><footer style="background:#193A29;color:#fff;position:relative;overflow:hidden;margin-top:96px"><div style="max-width:1240px;margin:0 auto;padding:80px 32px 28px"><div style="display:flex;flex-wrap:wrap;gap:56px;justify-content:space-between"><div style="max-width:340px;display:flex;flex-direction:column;gap:20px"><div style="display:flex;align-items:center;gap:12px"><span style="display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:9px;background:#f4f3ee;flex:none"><img src="assets/kernel-logo.png" alt="" style="width:23px;height:auto"></span><span class="s" style="font-size:26px;color:#fff">Kernel</span></div><p style="margin:0;color:#D5DED8;line-height:1.55;font-size:15px">An AI assistant for writing, learning, coding and everything in between.</p><label class="fm" style="display:flex;align-items:center;border:1px solid #3f5f4d;border-radius:12px;padding:6px 6px 6px 16px;gap:8px"><input aria-label="Email for updates" placeholder="Email for updates" style="flex:1;min-width:0;background:transparent;border:0;outline:none;color:#fff;font-size:15px;font-family:inherit"><a class="b" href="#" style="padding:10px 16px;font-size:14px">Subscribe <span class="ar">→</span></a></label></div><div style="display:flex;flex-wrap:wrap;gap:64px"><div><div class="mn" style="color:#B7C6BD;text-transform:uppercase;letter-spacing:.08em;margin-bottom:16px;padding:0">Product</div><div style="display:flex;flex-direction:column;gap:11px;font-size:15px;align-items:flex-start"><a href="Main.html">Features</a><a href="Product.html">Product</a><a href="Solutions.html">Solutions</a><a href="Platform.html">Platform</a><a href="Get.html">Get Kernel</a></div></div><div><div class="mn" style="color:#B7C6BD;text-transform:uppercase;letter-spacing:.08em;margin-bottom:16px;padding:0">Learn</div><div style="display:flex;flex-direction:column;gap:11px;font-size:15px;align-items:flex-start"><a href="Resources.html">Resources</a><a href="News.html">News</a><a href="Changelog.html">What’s new</a><a href="Help.html">Help center</a><a href="SettingsWeb.html">Settings</a></div></div><div><div class="mn" style="color:#B7C6BD;text-transform:uppercase;letter-spacing:.08em;margin-bottom:16px;padding:0">Company</div><div style="display:flex;flex-direction:column;gap:11px;font-size:15px;align-items:flex-start"><a href="Constitution.html">Constitution</a><a href="Conduct.html">Code of Conduct</a><a href="Policies.html">Policies</a><a href="About.html">About</a><a href="Careers.html">Careers</a><a href="Contact.html">Contact</a><a href="SignInWeb.html">Sign in</a></div></div><div><div class="mn" style="color:#B7C6BD;text-transform:uppercase;letter-spacing:.08em;margin-bottom:16px;padding:0">Trust</div><div style="display:flex;flex-direction:column;gap:11px;font-size:15px;align-items:flex-start"><a href="Safety.html">Safety</a><a href="Security.html">Security</a><a href="Accessibility.html">Accessibility</a><a href="Brand.html">Brand</a></div></div></div></div><div class="fwr"><div class="fw" aria-hidden="true">Kernel</div></div><div style="display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px;padding-top:22px;border-top:1px solid #2c5340;font-size:14px;color:#B7C6BD"><div>© Substrate</div><div style="display:flex;flex-wrap:wrap;gap:24px"><a href="Policies.html#s1">Privacy</a><a href="Policies.html#s2">Terms</a><a href="Policies.html#s4">Cookies</a><a href="#">[Social]</a><a href="#">[Social]</a></div></div></div></footer></div></body></html>
