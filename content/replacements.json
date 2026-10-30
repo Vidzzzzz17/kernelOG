@@ -1,0 +1,1307 @@
+[
+  {
+    "file": "public/kernel/About.html",
+    "oldText": "Replace the [bracketed] items with your own story before you publish.",
+    "newText": "Kernel is a chatbot that runs on your computer through a local model such as Ollama. Chats are saved in the database configured by the person running the app."
+  },
+  {
+    "file": "public/kernel/About.html",
+    "oldText": "[Describe Substrate: when it started, where it is based and what it believes.]",
+    "newText": "Kernel is a chatbot that runs on your computer through a local model such as Ollama. Chats are saved in the database configured by the person running the app."
+  },
+  {
+    "file": "public/kernel/About.html",
+    "oldText": "[Introduce the people behind Kernel.]",
+    "newText": "Kernel is a chatbot that runs on your computer through a local model such as Ollama. Chats are saved in the database configured by the person running the app."
+  },
+  {
+    "file": "public/kernel/About.html",
+    "oldText": "Press: [press@your-domain]. Partnerships: [partners@your-domain]. Everyone else: the",
+    "newText": "Kernel is a chatbot that runs on your computer through a local model such as Ollama. Chats are saved in the database configured by the person running the app."
+  },
+  {
+    "file": "public/kernel/About.html",
+    "oldText": "[Social]",
+    "newText": ""
+  },
+  {
+    "file": "public/kernel/About.html",
+    "oldText": "[Social]",
+    "newText": ""
+  },
+  {
+    "file": "public/kernel/Accessibility.html",
+    "oldText": "This page is a draft. Replace the [bracketed] items with the details of your own practices and have it reviewed before you publish.",
+    "newText": "Draft for review by a qualified lawyer before publication. See the replacement draft in Accessibility.html."
+  },
+  {
+    "file": "public/kernel/Accessibility.html",
+    "oldText": "Icon buttons have text labels. [Confirm against the current build.]",
+    "newText": "Draft for review by a qualified lawyer before publication. See the replacement draft in Accessibility.html."
+  },
+  {
+    "file": "public/kernel/Accessibility.html",
+    "oldText": "[List known issues and when they will be fixed.]",
+    "newText": "Draft for review by a qualified lawyer before publication. See the replacement draft in Accessibility.html."
+  },
+  {
+    "file": "public/kernel/Accessibility.html",
+    "oldText": "Write to [accessibility@your-domain] or use the",
+    "newText": "Draft for review by a qualified lawyer before publication. See the replacement draft in Accessibility.html."
+  },
+  {
+    "file": "public/kernel/Accessibility.html",
+    "oldText": "[Social]",
+    "newText": ""
+  },
+  {
+    "file": "public/kernel/Accessibility.html",
+    "oldText": "[Social]",
+    "newText": ""
+  },
+  {
+    "file": "public/kernel/AppHistory.html",
+    "oldText": "[Your name]",
+    "newText": "You"
+  },
+  {
+    "file": "public/kernel/AppHome.html",
+    "oldText": "Good evening, [Name]",
+    "newText": "Good evening, Good evening"
+  },
+  {
+    "file": "public/kernel/Brand.html",
+    "oldText": "[Social]",
+    "newText": ""
+  },
+  {
+    "file": "public/kernel/Brand.html",
+    "oldText": "[Social]",
+    "newText": ""
+  },
+  {
+    "file": "public/kernel/Careers.html",
+    "oldText": "Join a small team making an AI assistant that is helpful, honest and kind. [Edit this intro.]",
+    "newText": "Work on Kernel, a chatbot that runs with a local model on your computer."
+  },
+  {
+    "file": "public/kernel/Careers.html",
+    "oldText": "[Role title]",
+    "newText": "No open roles right now. Send your CV or a short note to substrate.devs@gmail.com."
+  },
+  {
+    "file": "public/kernel/Careers.html",
+    "oldText": "[Team] · [Location] · [Full-time]",
+    "newText": "No open roles right now. Send your CV or a short note to substrate.devs@gmail.com."
+  },
+  {
+    "file": "public/kernel/Careers.html",
+    "oldText": "[Role title]",
+    "newText": "No open roles right now. Send your CV or a short note to substrate.devs@gmail.com."
+  },
+  {
+    "file": "public/kernel/Careers.html",
+    "oldText": "[Team] · [Location] · [Full-time]",
+    "newText": "No open roles right now. Send your CV or a short note to substrate.devs@gmail.com."
+  },
+  {
+    "file": "public/kernel/Careers.html",
+    "oldText": "[Role title]",
+    "newText": "No open roles right now. Send your CV or a short note to substrate.devs@gmail.com."
+  },
+  {
+    "file": "public/kernel/Careers.html",
+    "oldText": "[Team] · [Location] · [Full-time]",
+    "newText": "No open roles right now. Send your CV or a short note to substrate.devs@gmail.com."
+  },
+  {
+    "file": "public/kernel/Careers.html",
+    "oldText": "[Role title]",
+    "newText": "No open roles right now. Send your CV or a short note to substrate.devs@gmail.com."
+  },
+  {
+    "file": "public/kernel/Careers.html",
+    "oldText": "[Team] · [Location] · [Full-time]",
+    "newText": "No open roles right now. Send your CV or a short note to substrate.devs@gmail.com."
+  },
+  {
+    "file": "public/kernel/Careers.html",
+    "oldText": "[Role title]",
+    "newText": "No open roles right now. Send your CV or a short note to substrate.devs@gmail.com."
+  },
+  {
+    "file": "public/kernel/Careers.html",
+    "oldText": "[Team] · [Location] · [Full-time]",
+    "newText": "No open roles right now. Send your CV or a short note to substrate.devs@gmail.com."
+  },
+  {
+    "file": "public/kernel/Careers.html",
+    "oldText": "[Social]",
+    "newText": ""
+  },
+  {
+    "file": "public/kernel/Careers.html",
+    "oldText": "[Social]",
+    "newText": ""
+  },
+  {
+    "file": "public/kernel/Changelog.html",
+    "oldText": "[v0.0] · [DATE]",
+    "newText": "There are no dated release entries yet."
+  },
+  {
+    "file": "public/kernel/Changelog.html",
+    "oldText": "[v0.0] · [DATE]",
+    "newText": "There are no dated release entries yet."
+  },
+  {
+    "file": "public/kernel/Changelog.html",
+    "oldText": "[v0.0] · [DATE]",
+    "newText": "There are no dated release entries yet."
+  },
+  {
+    "file": "public/kernel/Changelog.html",
+    "oldText": "[v0.0] · [DATE]",
+    "newText": "There are no dated release entries yet."
+  },
+  {
+    "file": "public/kernel/Changelog.html",
+    "oldText": "[Social]",
+    "newText": ""
+  },
+  {
+    "file": "public/kernel/Changelog.html",
+    "oldText": "[Social]",
+    "newText": ""
+  },
+  {
+    "file": "public/kernel/ChatCode.html",
+    "oldText": "[Your name]",
+    "newText": "You"
+  },
+  {
+    "file": "public/kernel/ChatNew.html",
+    "oldText": "[Your name]",
+    "newText": "You"
+  },
+  {
+    "file": "public/kernel/ChatNew.html",
+    "oldText": "Good evening, [Name]",
+    "newText": "Good evening, Good evening"
+  },
+  {
+    "file": "public/kernel/ChatWeb.html",
+    "oldText": "[Your name]",
+    "newText": "You"
+  },
+  {
+    "file": "public/kernel/Conduct.html",
+    "oldText": "Write to [conduct@your-domain]. Tell us what happened, where and when, and include links or screenshots if you can.",
+    "newText": "Draft for review by a qualified lawyer before publication. See the replacement draft in Conduct.html."
+  },
+  {
+    "file": "public/kernel/Conduct.html",
+    "oldText": "We will acknowledge your report within [X] business days.",
+    "newText": "Draft for review by a qualified lawyer before publication. See the replacement draft in Conduct.html."
+  },
+  {
+    "file": "public/kernel/Conduct.html",
+    "oldText": "If you think we got it wrong, reply within [30] days and a different reviewer will take a second look.",
+    "newText": "Draft for review by a qualified lawyer before publication. See the replacement draft in Conduct.html."
+  },
+  {
+    "file": "public/kernel/Conduct.html",
+    "oldText": "[Social]",
+    "newText": ""
+  },
+  {
+    "file": "public/kernel/Conduct.html",
+    "oldText": "[Social]",
+    "newText": ""
+  },
+  {
+    "file": "public/kernel/Constitution.html",
+    "oldText": "[Social]",
+    "newText": ""
+  },
+  {
+    "file": "public/kernel/Constitution.html",
+    "oldText": "[Social]",
+    "newText": ""
+  },
+  {
+    "file": "public/kernel/Contact.html",
+    "oldText": "We usually reply within [X] business days.",
+    "newText": "For questions, feedback, or legal and privacy inquiries, email substrate.devs@gmail.com."
+  },
+  {
+    "file": "public/kernel/Contact.html",
+    "oldText": "[press@your-domain]",
+    "newText": "For questions, feedback, or legal and privacy inquiries, email substrate.devs@gmail.com."
+  },
+  {
+    "file": "public/kernel/Contact.html",
+    "oldText": "[security@your-domain]",
+    "newText": "For questions, feedback, or legal and privacy inquiries, email substrate.devs@gmail.com."
+  },
+  {
+    "file": "public/kernel/Contact.html",
+    "oldText": "[Social]",
+    "newText": ""
+  },
+  {
+    "file": "public/kernel/Contact.html",
+    "oldText": "[Social]",
+    "newText": ""
+  },
+  {
+    "file": "public/kernel/Get.html",
+    "oldText": "[Social]",
+    "newText": ""
+  },
+  {
+    "file": "public/kernel/Get.html",
+    "oldText": "[Social]",
+    "newText": ""
+  },
+  {
+    "file": "public/kernel/Help.html",
+    "oldText": "[Article title 1]",
+    "newText": "Kernel sends prompts to a local Ollama model; chats are stored in the database configured by the person running Kernel."
+  },
+  {
+    "file": "public/kernel/Help.html",
+    "oldText": "[Article title 2]",
+    "newText": "Kernel sends prompts to a local Ollama model; chats are stored in the database configured by the person running Kernel."
+  },
+  {
+    "file": "public/kernel/Help.html",
+    "oldText": "[Article title 3]",
+    "newText": "Kernel sends prompts to a local Ollama model; chats are stored in the database configured by the person running Kernel."
+  },
+  {
+    "file": "public/kernel/Help.html",
+    "oldText": "[Article title 4]",
+    "newText": "Kernel sends prompts to a local Ollama model; chats are stored in the database configured by the person running Kernel."
+  },
+  {
+    "file": "public/kernel/Help.html",
+    "oldText": "[Article title 5]",
+    "newText": "Kernel sends prompts to a local Ollama model; chats are stored in the database configured by the person running Kernel."
+  },
+  {
+    "file": "public/kernel/Help.html",
+    "oldText": "[Social]",
+    "newText": ""
+  },
+  {
+    "file": "public/kernel/Help.html",
+    "oldText": "[Social]",
+    "newText": ""
+  },
+  {
+    "file": "public/kernel/Main.html",
+    "oldText": "[DATE]",
+    "newText": "(date removed; no launch date is published)"
+  },
+  {
+    "file": "public/kernel/Main.html",
+    "oldText": "Introducing [new feature]",
+    "newText": "Chat with a local Ollama model →"
+  },
+  {
+    "file": "public/kernel/Main.html",
+    "oldText": "[DATE]",
+    "newText": "(date removed; no launch date is published)"
+  },
+  {
+    "file": "public/kernel/Main.html",
+    "oldText": "[Research finding], explained",
+    "newText": "(unsupported research/event item removed)"
+  },
+  {
+    "file": "public/kernel/Main.html",
+    "oldText": "[DATE]",
+    "newText": "(date removed; no launch date is published)"
+  },
+  {
+    "file": "public/kernel/Main.html",
+    "oldText": "What we learned from [event]",
+    "newText": "(unsupported research/event item removed)"
+  },
+  {
+    "file": "public/kernel/Main.html",
+    "oldText": "[Social]",
+    "newText": ""
+  },
+  {
+    "file": "public/kernel/Main.html",
+    "oldText": "[Social]",
+    "newText": ""
+  },
+  {
+    "file": "public/kernel/News.html",
+    "oldText": "Featured · [DATE]",
+    "newText": "(unsupported dated/news placeholder removed; the page now describes the local Ollama model)"
+  },
+  {
+    "file": "public/kernel/News.html",
+    "oldText": "[Featured story headline goes here]",
+    "newText": "(unsupported dated/news placeholder removed; the page now describes the local Ollama model)"
+  },
+  {
+    "file": "public/kernel/News.html",
+    "oldText": "[A short summary of the featured story, two or three lines long.]",
+    "newText": "(unsupported dated/news placeholder removed; the page now describes the local Ollama model)"
+  },
+  {
+    "file": "public/kernel/News.html",
+    "oldText": "[DATE]",
+    "newText": "(unsupported dated/news placeholder removed; the page now describes the local Ollama model)"
+  },
+  {
+    "file": "public/kernel/News.html",
+    "oldText": "Introducing [new feature]",
+    "newText": "Chat with a local Ollama model"
+  },
+  {
+    "file": "public/kernel/News.html",
+    "oldText": "[DATE]",
+    "newText": "(unsupported dated/news placeholder removed; the page now describes the local Ollama model)"
+  },
+  {
+    "file": "public/kernel/News.html",
+    "oldText": "[Research finding], explained",
+    "newText": "(unsupported research/event item removed)"
+  },
+  {
+    "file": "public/kernel/News.html",
+    "oldText": "[DATE]",
+    "newText": "(unsupported dated/news placeholder removed; the page now describes the local Ollama model)"
+  },
+  {
+    "file": "public/kernel/News.html",
+    "oldText": "What we learned from [event]",
+    "newText": "(unsupported research/event item removed)"
+  },
+  {
+    "file": "public/kernel/News.html",
+    "oldText": "[DATE]",
+    "newText": "(unsupported dated/news placeholder removed; the page now describes the local Ollama model)"
+  },
+  {
+    "file": "public/kernel/News.html",
+    "oldText": "Meet the team behind [product]",
+    "newText": "(unsupported dated/news placeholder removed; the page now describes the local Ollama model)"
+  },
+  {
+    "file": "public/kernel/News.html",
+    "oldText": "[DATE]",
+    "newText": "(unsupported dated/news placeholder removed; the page now describes the local Ollama model)"
+  },
+  {
+    "file": "public/kernel/News.html",
+    "oldText": "Kernel [version] is here",
+    "newText": "(unsupported dated/news placeholder removed; the page now describes the local Ollama model)"
+  },
+  {
+    "file": "public/kernel/News.html",
+    "oldText": "[DATE]",
+    "newText": "(unsupported dated/news placeholder removed; the page now describes the local Ollama model)"
+  },
+  {
+    "file": "public/kernel/News.html",
+    "oldText": "[Community spotlight]",
+    "newText": "(unsupported dated/news placeholder removed; the page now describes the local Ollama model)"
+  },
+  {
+    "file": "public/kernel/News.html",
+    "oldText": "[DATE]",
+    "newText": "(unsupported dated/news placeholder removed; the page now describes the local Ollama model)"
+  },
+  {
+    "file": "public/kernel/News.html",
+    "oldText": "How teams use Kernel for [workflow]",
+    "newText": "(unsupported dated/news placeholder removed; the page now describes the local Ollama model)"
+  },
+  {
+    "file": "public/kernel/News.html",
+    "oldText": "[DATE]",
+    "newText": "(unsupported dated/news placeholder removed; the page now describes the local Ollama model)"
+  },
+  {
+    "file": "public/kernel/News.html",
+    "oldText": "[Company announcement]",
+    "newText": "(unsupported dated/news placeholder removed; the page now describes the local Ollama model)"
+  },
+  {
+    "file": "public/kernel/News.html",
+    "oldText": "[DATE]",
+    "newText": "(unsupported dated/news placeholder removed; the page now describes the local Ollama model)"
+  },
+  {
+    "file": "public/kernel/News.html",
+    "oldText": "A closer look at [capability]",
+    "newText": "(unsupported dated/news placeholder removed; the page now describes the local Ollama model)"
+  },
+  {
+    "file": "public/kernel/News.html",
+    "oldText": "[Social]",
+    "newText": ""
+  },
+  {
+    "file": "public/kernel/News.html",
+    "oldText": "[Social]",
+    "newText": ""
+  },
+  {
+    "file": "public/kernel/Platform.html",
+    "oldText": "[Partner logo]",
+    "newText": "(partner logo strip removed; socials and partner logos are empty/unsubstantiated)"
+  },
+  {
+    "file": "public/kernel/Platform.html",
+    "oldText": "[Partner logo]",
+    "newText": "(partner logo strip removed; socials and partner logos are empty/unsubstantiated)"
+  },
+  {
+    "file": "public/kernel/Platform.html",
+    "oldText": "[Partner logo]",
+    "newText": "(partner logo strip removed; socials and partner logos are empty/unsubstantiated)"
+  },
+  {
+    "file": "public/kernel/Platform.html",
+    "oldText": "[Partner logo]",
+    "newText": "(partner logo strip removed; socials and partner logos are empty/unsubstantiated)"
+  },
+  {
+    "file": "public/kernel/Platform.html",
+    "oldText": "[Partner logo]",
+    "newText": "(partner logo strip removed; socials and partner logos are empty/unsubstantiated)"
+  },
+  {
+    "file": "public/kernel/Platform.html",
+    "oldText": "[Partner logo]",
+    "newText": "(partner logo strip removed; socials and partner logos are empty/unsubstantiated)"
+  },
+  {
+    "file": "public/kernel/Platform.html",
+    "oldText": "[Partner logo]",
+    "newText": "(partner logo strip removed; socials and partner logos are empty/unsubstantiated)"
+  },
+  {
+    "file": "public/kernel/Platform.html",
+    "oldText": "[Partner logo]",
+    "newText": "(partner logo strip removed; socials and partner logos are empty/unsubstantiated)"
+  },
+  {
+    "file": "public/kernel/Platform.html",
+    "oldText": "[Partner logo]",
+    "newText": "(partner logo strip removed; socials and partner logos are empty/unsubstantiated)"
+  },
+  {
+    "file": "public/kernel/Platform.html",
+    "oldText": "[Partner logo]",
+    "newText": "(partner logo strip removed; socials and partner logos are empty/unsubstantiated)"
+  },
+  {
+    "file": "public/kernel/Platform.html",
+    "oldText": "[Partner logo]",
+    "newText": "(partner logo strip removed; socials and partner logos are empty/unsubstantiated)"
+  },
+  {
+    "file": "public/kernel/Platform.html",
+    "oldText": "[Partner logo]",
+    "newText": "(partner logo strip removed; socials and partner logos are empty/unsubstantiated)"
+  },
+  {
+    "file": "public/kernel/Platform.html",
+    "oldText": "[Partner logo]",
+    "newText": "(partner logo strip removed; socials and partner logos are empty/unsubstantiated)"
+  },
+  {
+    "file": "public/kernel/Platform.html",
+    "oldText": "[Partner logo]",
+    "newText": "(partner logo strip removed; socials and partner logos are empty/unsubstantiated)"
+  },
+  {
+    "file": "public/kernel/Platform.html",
+    "oldText": "[Partner logo]",
+    "newText": "(partner logo strip removed; socials and partner logos are empty/unsubstantiated)"
+  },
+  {
+    "file": "public/kernel/Platform.html",
+    "oldText": "[Partner logo]",
+    "newText": "(partner logo strip removed; socials and partner logos are empty/unsubstantiated)"
+  },
+  {
+    "file": "public/kernel/Platform.html",
+    "oldText": "[Partner logo]",
+    "newText": "(partner logo strip removed; socials and partner logos are empty/unsubstantiated)"
+  },
+  {
+    "file": "public/kernel/Platform.html",
+    "oldText": "[Partner logo]",
+    "newText": "(partner logo strip removed; socials and partner logos are empty/unsubstantiated)"
+  },
+  {
+    "file": "public/kernel/Platform.html",
+    "oldText": "[Partner logo]",
+    "newText": "(partner logo strip removed; socials and partner logos are empty/unsubstantiated)"
+  },
+  {
+    "file": "public/kernel/Platform.html",
+    "oldText": "[Partner logo]",
+    "newText": "(partner logo strip removed; socials and partner logos are empty/unsubstantiated)"
+  },
+  {
+    "file": "public/kernel/Platform.html",
+    "oldText": "[Social]",
+    "newText": ""
+  },
+  {
+    "file": "public/kernel/Platform.html",
+    "oldText": "[Social]",
+    "newText": ""
+  },
+  {
+    "file": "public/kernel/Policies.html",
+    "oldText": "Last updated: [DATE]",
+    "newText": "Draft for review by a qualified lawyer before publication. The privacy draft states local model processing, configured database storage of messages, timestamps, model name and conversation titles, and the limits of what this repository verifies."
+  },
+  {
+    "file": "public/kernel/Policies.html",
+    "oldText": "[List what Kernel collects, for example account details, the content of your chats, and device and usage information.]",
+    "newText": "Draft for review by a qualified lawyer before publication. The privacy draft states local model processing, configured database storage of messages, timestamps, model name and conversation titles, and the limits of what this repository verifies."
+  },
+  {
+    "file": "public/kernel/Policies.html",
+    "oldText": "We use your information to run and improve Kernel, keep it safe, and get in touch with you. [Add any other purposes.]",
+    "newText": "Draft for review by a qualified lawyer before publication. The privacy draft states local model processing, configured database storage of messages, timestamps, model name and conversation titles, and the limits of what this repository verifies."
+  },
+  {
+    "file": "public/kernel/Policies.html",
+    "oldText": "[Say clearly whether chat content is used to improve models, and how people can opt out.]",
+    "newText": "Draft for review by a qualified lawyer before publication. The privacy draft states local model processing, configured database storage of messages, timestamps, model name and conversation titles, and the limits of what this repository verifies."
+  },
+  {
+    "file": "public/kernel/Policies.html",
+    "oldText": "[We do not sell your personal information.] We share it only with [service providers], when the law requires it, or with your consent.",
+    "newText": "Draft for review by a qualified lawyer before publication. The privacy draft states local model processing, configured database storage of messages, timestamps, model name and conversation titles, and the limits of what this repository verifies."
+  },
+  {
+    "file": "public/kernel/Policies.html",
+    "oldText": "You keep ownership of what you put into Kernel. You give us the permissions we need to run the service for you. [Confirm the licence wording.]",
+    "newText": "Draft for review by a qualified lawyer before publication. The privacy draft states local model processing, configured database storage of messages, timestamps, model name and conversation titles, and the limits of what this repository verifies."
+  },
+  {
+    "file": "public/kernel/Policies.html",
+    "oldText": "cookies help us measure and improve. [List the categories and providers.]",
+    "newText": "Draft for review by a qualified lawyer before publication. The privacy draft states local model processing, configured database storage of messages, timestamps, model name and conversation titles, and the limits of what this repository verifies."
+  },
+  {
+    "file": "public/kernel/Policies.html",
+    "oldText": "You can change your choices at any time in [cookie settings].",
+    "newText": "Draft for review by a qualified lawyer before publication. The privacy draft states local model processing, configured database storage of messages, timestamps, model name and conversation titles, and the limits of what this repository verifies."
+  },
+  {
+    "file": "public/kernel/Policies.html",
+    "oldText": "[Say how long chats and account data are kept.]",
+    "newText": "Draft for review by a qualified lawyer before publication. The privacy draft states local model processing, configured database storage of messages, timestamps, model name and conversation titles, and the limits of what this repository verifies."
+  },
+  {
+    "file": "public/kernel/Policies.html",
+    "oldText": "You can delete single chats or your whole account in [settings]. [Explain what happens to backups and when deletion is complete.]",
+    "newText": "Draft for review by a qualified lawyer before publication. The privacy draft states local model processing, configured database storage of messages, timestamps, model name and conversation titles, and the limits of what this repository verifies."
+  },
+  {
+    "file": "public/kernel/Policies.html",
+    "oldText": "To make a request, write to [privacy@your-domain]. We will reply within [X] days.",
+    "newText": "Draft for review by a qualified lawyer before publication. The privacy draft states local model processing, configured database storage of messages, timestamps, model name and conversation titles, and the limits of what this repository verifies."
+  },
+  {
+    "file": "public/kernel/Policies.html",
+    "oldText": "Questions about these policies: [privacy@your-domain]. Substrate, [postal address].",
+    "newText": "Draft for review by a qualified lawyer before publication. The privacy draft states local model processing, configured database storage of messages, timestamps, model name and conversation titles, and the limits of what this repository verifies."
+  },
+  {
+    "file": "public/kernel/Policies.html",
+    "oldText": "[Social]",
+    "newText": ""
+  },
+  {
+    "file": "public/kernel/Policies.html",
+    "oldText": "[Social]",
+    "newText": ""
+  },
+  {
+    "file": "public/kernel/Product.html",
+    "oldText": "[Social]",
+    "newText": ""
+  },
+  {
+    "file": "public/kernel/Product.html",
+    "oldText": "[Social]",
+    "newText": ""
+  },
+  {
+    "file": "public/kernel/Resources.html",
+    "oldText": "[DATE]",
+    "newText": "(date removed; no launch date is published)"
+  },
+  {
+    "file": "public/kernel/Resources.html",
+    "oldText": "[DATE]",
+    "newText": "(date removed; no launch date is published)"
+  },
+  {
+    "file": "public/kernel/Resources.html",
+    "oldText": "[DATE]",
+    "newText": "(date removed; no launch date is published)"
+  },
+  {
+    "file": "public/kernel/Resources.html",
+    "oldText": "[DATE]",
+    "newText": "(date removed; no launch date is published)"
+  },
+  {
+    "file": "public/kernel/Resources.html",
+    "oldText": "[DATE]",
+    "newText": "(date removed; no launch date is published)"
+  },
+  {
+    "file": "public/kernel/Resources.html",
+    "oldText": "[DATE]",
+    "newText": "(date removed; no launch date is published)"
+  },
+  {
+    "file": "public/kernel/Resources.html",
+    "oldText": "[Social]",
+    "newText": ""
+  },
+  {
+    "file": "public/kernel/Resources.html",
+    "oldText": "[Social]",
+    "newText": ""
+  },
+  {
+    "file": "public/kernel/Safety.html",
+    "oldText": "This page is a draft. Replace the [bracketed] items with the details of your own practices and have it reviewed before you publish.",
+    "newText": "Draft for review by a qualified lawyer before publication. See the replacement draft in Safety.html."
+  },
+  {
+    "file": "public/kernel/Safety.html",
+    "oldText": "[Describe the teams and processes responsible for safety.]",
+    "newText": "Draft for review by a qualified lawyer before publication. See the replacement draft in Safety.html."
+  },
+  {
+    "file": "public/kernel/Safety.html",
+    "oldText": "[Describe testing before release, for example red-teaming, evaluations and staged rollouts.]",
+    "newText": "Draft for review by a qualified lawyer before publication. See the replacement draft in Safety.html."
+  },
+  {
+    "file": "public/kernel/Safety.html",
+    "oldText": "We try to test with people who think differently from us, and [share what we learn where we can].",
+    "newText": "Draft for review by a qualified lawyer before publication. See the replacement draft in Safety.html."
+  },
+  {
+    "file": "public/kernel/Safety.html",
+    "oldText": "If someone seems to be in distress, Kernel responds with care and points to appropriate help. [List support resources for each region.]",
+    "newText": "Draft for review by a qualified lawyer before publication. See the replacement draft in Safety.html."
+  },
+  {
+    "file": "public/kernel/Safety.html",
+    "oldText": "Use the thumbs-down on any reply, or write to [safety@your-domain].",
+    "newText": "Draft for review by a qualified lawyer before publication. See the replacement draft in Safety.html."
+  },
+  {
+    "file": "public/kernel/Safety.html",
+    "oldText": "[Describe audits, advisory groups or external reviews.]",
+    "newText": "Draft for review by a qualified lawyer before publication. See the replacement draft in Safety.html."
+  },
+  {
+    "file": "public/kernel/Safety.html",
+    "oldText": "[Social]",
+    "newText": ""
+  },
+  {
+    "file": "public/kernel/Safety.html",
+    "oldText": "[Social]",
+    "newText": ""
+  },
+  {
+    "file": "public/kernel/Security.html",
+    "oldText": "This page is a draft. Replace the [bracketed] items with the details of your own practices and have it reviewed before you publish.",
+    "newText": "Draft for review by a qualified lawyer before publication. See the replacement draft in Security.html."
+  },
+  {
+    "file": "public/kernel/Security.html",
+    "oldText": "[Summarize your security program and who is responsible for it.]",
+    "newText": "Draft for review by a qualified lawyer before publication. See the replacement draft in Security.html."
+  },
+  {
+    "file": "public/kernel/Security.html",
+    "oldText": "[Describe encryption in transit and at rest.]",
+    "newText": "Draft for review by a qualified lawyer before publication. See the replacement draft in Security.html."
+  },
+  {
+    "file": "public/kernel/Security.html",
+    "oldText": "[Describe how data is stored and kept separate between customers.]",
+    "newText": "Draft for review by a qualified lawyer before publication. See the replacement draft in Security.html."
+  },
+  {
+    "file": "public/kernel/Security.html",
+    "oldText": "[Describe who at Substrate can reach customer data, and how that access is limited and logged.]",
+    "newText": "Draft for review by a qualified lawyer before publication. See the replacement draft in Security.html."
+  },
+  {
+    "file": "public/kernel/Security.html",
+    "oldText": "If you find a security issue, write to [security@your-domain]. Please give us reasonable time to fix it before sharing it publicly.",
+    "newText": "Draft for review by a qualified lawyer before publication. See the replacement draft in Security.html."
+  },
+  {
+    "file": "public/kernel/Security.html",
+    "oldText": "[Describe any bug bounty or safe-harbor terms.]",
+    "newText": "Draft for review by a qualified lawyer before publication. See the replacement draft in Security.html."
+  },
+  {
+    "file": "public/kernel/Security.html",
+    "oldText": "[List certifications and audits, for example SOC 2 or ISO 27001.]",
+    "newText": "Draft for review by a qualified lawyer before publication. See the replacement draft in Security.html."
+  },
+  {
+    "file": "public/kernel/Security.html",
+    "oldText": "[Describe notification timelines and contacts.]",
+    "newText": "Draft for review by a qualified lawyer before publication. See the replacement draft in Security.html."
+  },
+  {
+    "file": "public/kernel/Security.html",
+    "oldText": "[Social]",
+    "newText": ""
+  },
+  {
+    "file": "public/kernel/Security.html",
+    "oldText": "[Social]",
+    "newText": ""
+  },
+  {
+    "file": "public/kernel/SettingsApp.html",
+    "oldText": "[Your name]",
+    "newText": "You"
+  },
+  {
+    "file": "public/kernel/SettingsApp.html",
+    "oldText": "[you@example.com]",
+    "newText": "Account not connected"
+  },
+  {
+    "file": "public/kernel/SettingsApp.html",
+    "oldText": "[Voice 1]",
+    "newText": "Voice option 1"
+  },
+  {
+    "file": "public/kernel/SettingsDesktop.html",
+    "oldText": "C:\\Users\\[you]\\Documents\\Kernel",
+    "newText": "C:\\Users\\user\\Documents\\Kernel"
+  },
+  {
+    "file": "public/kernel/SettingsDesktop.html",
+    "oldText": "[File name]",
+    "newText": "Untitled file"
+  },
+  {
+    "file": "public/kernel/SettingsDesktop.html",
+    "oldText": "Imported [DATE]",
+    "newText": "Imported file"
+  },
+  {
+    "file": "public/kernel/SettingsDesktop.html",
+    "oldText": "[File name]",
+    "newText": "Untitled file"
+  },
+  {
+    "file": "public/kernel/SettingsDesktop.html",
+    "oldText": "Imported [DATE]",
+    "newText": "Imported file"
+  },
+  {
+    "file": "public/kernel/SettingsDesktop.html",
+    "oldText": "[Your name]",
+    "newText": "You"
+  },
+  {
+    "file": "public/kernel/SettingsDesktop.html",
+    "oldText": "[you@example.com]",
+    "newText": "Account not connected"
+  },
+  {
+    "file": "public/kernel/SettingsDesktop.html",
+    "oldText": "Last changed [DATE]",
+    "newText": "Not set"
+  },
+  {
+    "file": "public/kernel/SettingsDesktop.html",
+    "oldText": "[This computer]",
+    "newText": "This computer"
+  },
+  {
+    "file": "public/kernel/SettingsDesktop.html",
+    "oldText": "[Location] · Active now",
+    "newText": "Available"
+  },
+  {
+    "file": "public/kernel/SettingsDesktop.html",
+    "oldText": "[Phone]",
+    "newText": "No phone linked"
+  },
+  {
+    "file": "public/kernel/SettingsDesktop.html",
+    "oldText": "[Location] · [DATE]",
+    "newText": "[Location] · "
+  },
+  {
+    "file": "public/kernel/SettingsDesktop.html",
+    "oldText": "[Chat title]",
+    "newText": "Untitled chat"
+  },
+  {
+    "file": "public/kernel/SettingsDesktop.html",
+    "oldText": "Archived [DATE]",
+    "newText": "Archived"
+  },
+  {
+    "file": "public/kernel/SettingsDesktop.html",
+    "oldText": "[Chat title]",
+    "newText": "Untitled chat"
+  },
+  {
+    "file": "public/kernel/SettingsDesktop.html",
+    "oldText": "Archived [DATE]",
+    "newText": "Archived"
+  },
+  {
+    "file": "public/kernel/SettingsDesktop.html",
+    "oldText": "[Chat title]",
+    "newText": "Untitled chat"
+  },
+  {
+    "file": "public/kernel/SettingsDesktop.html",
+    "oldText": "Archived [DATE]",
+    "newText": "Archived"
+  },
+  {
+    "file": "public/kernel/SettingsDesktop.html",
+    "oldText": "[Chat title]",
+    "newText": "Untitled chat"
+  },
+  {
+    "file": "public/kernel/SettingsDesktop.html",
+    "oldText": "Archived [DATE]",
+    "newText": "Archived"
+  },
+  {
+    "file": "public/kernel/SettingsDesktop.html",
+    "oldText": "[None linked]",
+    "newText": "None linked"
+  },
+  {
+    "file": "public/kernel/SettingsDesktop.html",
+    "oldText": "[Voice 1]",
+    "newText": "Voice option 1"
+  },
+  {
+    "file": "public/kernel/SettingsDesktop.html",
+    "oldText": "[Voice 2]",
+    "newText": "Voice option 2"
+  },
+  {
+    "file": "public/kernel/SettingsDesktop.html",
+    "oldText": "[Voice 3]",
+    "newText": "Voice option 3"
+  },
+  {
+    "file": "public/kernel/SettingsDesktop.html",
+    "oldText": "[Voice 4]",
+    "newText": "Voice option 4"
+  },
+  {
+    "file": "public/kernel/SettingsDesktop.html",
+    "oldText": "[Headset]",
+    "newText": "Headset"
+  },
+  {
+    "file": "public/kernel/SettingsDesktop.html",
+    "oldText": "[X] GB of [Y] GB used",
+    "newText": "Storage usage unavailable"
+  },
+  {
+    "file": "public/kernel/SettingsDesktop.html",
+    "oldText": "[X] MB",
+    "newText": "Size unavailable"
+  },
+  {
+    "file": "public/kernel/SettingsDesktop.html",
+    "oldText": "[X] MB",
+    "newText": "Size unavailable"
+  },
+  {
+    "file": "public/kernel/SettingsDesktop.html",
+    "oldText": "[X] MB",
+    "newText": "Size unavailable"
+  },
+  {
+    "file": "public/kernel/SettingsDesktop.html",
+    "oldText": "[Memory item]",
+    "newText": "No saved memory"
+  },
+  {
+    "file": "public/kernel/SettingsDesktop.html",
+    "oldText": "[Memory item]",
+    "newText": "No saved memory"
+  },
+  {
+    "file": "public/kernel/SettingsDesktop.html",
+    "oldText": "[Plan name]",
+    "newText": "Plan not set"
+  },
+  {
+    "file": "public/kernel/SettingsDesktop.html",
+    "oldText": "Renews [DATE]",
+    "newText": "Renews "
+  },
+  {
+    "file": "public/kernel/SettingsDesktop.html",
+    "oldText": "[X] / [Y]",
+    "newText": "Not available"
+  },
+  {
+    "file": "public/kernel/SettingsDesktop.html",
+    "oldText": "[X] / [Y]",
+    "newText": "Not available"
+  },
+  {
+    "file": "public/kernel/SettingsDesktop.html",
+    "oldText": "[X] / [Y]",
+    "newText": "Not available"
+  },
+  {
+    "file": "public/kernel/SettingsDesktop.html",
+    "oldText": "[Explain exactly what is shared and how to opt out.]",
+    "newText": "Prompts go to the local model; chats are saved in the database configured by the person running Kernel."
+  },
+  {
+    "file": "public/kernel/SettingsDesktop.html",
+    "oldText": "[App 1]",
+    "newText": "No app connected"
+  },
+  {
+    "file": "public/kernel/SettingsDesktop.html",
+    "oldText": "[App 2]",
+    "newText": "No app connected"
+  },
+  {
+    "file": "public/kernel/SettingsDesktop.html",
+    "oldText": "[App 3]",
+    "newText": "No app connected"
+  },
+  {
+    "file": "public/kernel/SettingsDesktop.html",
+    "oldText": "[App 4]",
+    "newText": "No app connected"
+  },
+  {
+    "file": "public/kernel/SettingsDesktop.html",
+    "oldText": "[Plugin 1]",
+    "newText": "No plugin connected"
+  },
+  {
+    "file": "public/kernel/SettingsDesktop.html",
+    "oldText": "[Plugin 2]",
+    "newText": "No plugin connected"
+  },
+  {
+    "file": "public/kernel/SettingsDesktop.html",
+    "oldText": "[Plugin 3]",
+    "newText": "No plugin connected"
+  },
+  {
+    "file": "public/kernel/SettingsDesktop.html",
+    "oldText": "[Plugin 4]",
+    "newText": "No plugin connected"
+  },
+  {
+    "file": "public/kernel/SettingsDesktop.html",
+    "oldText": "[App name]",
+    "newText": "App not connected"
+  },
+  {
+    "file": "public/kernel/SettingsDesktop.html",
+    "oldText": "[Folder path]",
+    "newText": "No folder selected"
+  },
+  {
+    "file": "public/kernel/SettingsWeb.html",
+    "oldText": "C:\\Users\\[you]\\Documents\\Kernel",
+    "newText": "C:\\Users\\user\\Documents\\Kernel"
+  },
+  {
+    "file": "public/kernel/SettingsWeb.html",
+    "oldText": "[File name]",
+    "newText": "Untitled file"
+  },
+  {
+    "file": "public/kernel/SettingsWeb.html",
+    "oldText": "Imported [DATE]",
+    "newText": "Imported "
+  },
+  {
+    "file": "public/kernel/SettingsWeb.html",
+    "oldText": "[File name]",
+    "newText": "Untitled file"
+  },
+  {
+    "file": "public/kernel/SettingsWeb.html",
+    "oldText": "Imported [DATE]",
+    "newText": "Imported "
+  },
+  {
+    "file": "public/kernel/SettingsWeb.html",
+    "oldText": "[Your name]",
+    "newText": "You"
+  },
+  {
+    "file": "public/kernel/SettingsWeb.html",
+    "oldText": "[you@example.com]",
+    "newText": "Account not connected"
+  },
+  {
+    "file": "public/kernel/SettingsWeb.html",
+    "oldText": "Last changed [DATE]",
+    "newText": "Last changed "
+  },
+  {
+    "file": "public/kernel/SettingsWeb.html",
+    "oldText": "[This computer]",
+    "newText": "This computer"
+  },
+  {
+    "file": "public/kernel/SettingsWeb.html",
+    "oldText": "[Location] · Active now",
+    "newText": "Available"
+  },
+  {
+    "file": "public/kernel/SettingsWeb.html",
+    "oldText": "[Phone]",
+    "newText": "No phone linked"
+  },
+  {
+    "file": "public/kernel/SettingsWeb.html",
+    "oldText": "[Location] · [DATE]",
+    "newText": " · "
+  },
+  {
+    "file": "public/kernel/SettingsWeb.html",
+    "oldText": "[Chat title]",
+    "newText": "Untitled chat"
+  },
+  {
+    "file": "public/kernel/SettingsWeb.html",
+    "oldText": "Archived [DATE]",
+    "newText": "Archived "
+  },
+  {
+    "file": "public/kernel/SettingsWeb.html",
+    "oldText": "[Chat title]",
+    "newText": "Untitled chat"
+  },
+  {
+    "file": "public/kernel/SettingsWeb.html",
+    "oldText": "Archived [DATE]",
+    "newText": "Archived "
+  },
+  {
+    "file": "public/kernel/SettingsWeb.html",
+    "oldText": "[Chat title]",
+    "newText": "Untitled chat"
+  },
+  {
+    "file": "public/kernel/SettingsWeb.html",
+    "oldText": "Archived [DATE]",
+    "newText": "Archived "
+  },
+  {
+    "file": "public/kernel/SettingsWeb.html",
+    "oldText": "[Chat title]",
+    "newText": "Untitled chat"
+  },
+  {
+    "file": "public/kernel/SettingsWeb.html",
+    "oldText": "Archived [DATE]",
+    "newText": "Archived "
+  },
+  {
+    "file": "public/kernel/SettingsWeb.html",
+    "oldText": "[None linked]",
+    "newText": "None linked"
+  },
+  {
+    "file": "public/kernel/SettingsWeb.html",
+    "oldText": "[Voice 1]",
+    "newText": "Voice option 1"
+  },
+  {
+    "file": "public/kernel/SettingsWeb.html",
+    "oldText": "[Voice 2]",
+    "newText": "Voice option 2"
+  },
+  {
+    "file": "public/kernel/SettingsWeb.html",
+    "oldText": "[Voice 3]",
+    "newText": "Voice option 3"
+  },
+  {
+    "file": "public/kernel/SettingsWeb.html",
+    "oldText": "[Voice 4]",
+    "newText": "Voice option 4"
+  },
+  {
+    "file": "public/kernel/SettingsWeb.html",
+    "oldText": "[Headset]",
+    "newText": "Headset"
+  },
+  {
+    "file": "public/kernel/SettingsWeb.html",
+    "oldText": "[X] GB of [Y] GB used",
+    "newText": "Storage usage unavailable"
+  },
+  {
+    "file": "public/kernel/SettingsWeb.html",
+    "oldText": "[X] MB",
+    "newText": "Size unavailable"
+  },
+  {
+    "file": "public/kernel/SettingsWeb.html",
+    "oldText": "[X] MB",
+    "newText": "Size unavailable"
+  },
+  {
+    "file": "public/kernel/SettingsWeb.html",
+    "oldText": "[X] MB",
+    "newText": "Size unavailable"
+  },
+  {
+    "file": "public/kernel/SettingsWeb.html",
+    "oldText": "[Memory item]",
+    "newText": "No saved memory"
+  },
+  {
+    "file": "public/kernel/SettingsWeb.html",
+    "oldText": "[Memory item]",
+    "newText": "No saved memory"
+  },
+  {
+    "file": "public/kernel/SettingsWeb.html",
+    "oldText": "[Plan name]",
+    "newText": "Plan not set"
+  },
+  {
+    "file": "public/kernel/SettingsWeb.html",
+    "oldText": "Renews [DATE]",
+    "newText": "Renews "
+  },
+  {
+    "file": "public/kernel/SettingsWeb.html",
+    "oldText": "[X] / [Y]",
+    "newText": "Not available"
+  },
+  {
+    "file": "public/kernel/SettingsWeb.html",
+    "oldText": "[X] / [Y]",
+    "newText": "Not available"
+  },
+  {
+    "file": "public/kernel/SettingsWeb.html",
+    "oldText": "[X] / [Y]",
+    "newText": "Not available"
+  },
+  {
+    "file": "public/kernel/SettingsWeb.html",
+    "oldText": "[Explain exactly what is shared and how to opt out.]",
+    "newText": ""
+  },
+  {
+    "file": "public/kernel/SettingsWeb.html",
+    "oldText": "[App 1]",
+    "newText": "No app connected"
+  },
+  {
+    "file": "public/kernel/SettingsWeb.html",
+    "oldText": "[App 2]",
+    "newText": "No app connected"
+  },
+  {
+    "file": "public/kernel/SettingsWeb.html",
+    "oldText": "[App 3]",
+    "newText": "No app connected"
+  },
+  {
+    "file": "public/kernel/SettingsWeb.html",
+    "oldText": "[App 4]",
+    "newText": "No app connected"
+  },
+  {
+    "file": "public/kernel/SettingsWeb.html",
+    "oldText": "[Plugin 1]",
+    "newText": "No plugin connected"
+  },
+  {
+    "file": "public/kernel/SettingsWeb.html",
+    "oldText": "[Plugin 2]",
+    "newText": "No plugin connected"
+  },
+  {
+    "file": "public/kernel/SettingsWeb.html",
+    "oldText": "[Plugin 3]",
+    "newText": "No plugin connected"
+  },
+  {
+    "file": "public/kernel/SettingsWeb.html",
+    "oldText": "[Plugin 4]",
+    "newText": "No plugin connected"
+  },
+  {
+    "file": "public/kernel/SettingsWeb.html",
+    "oldText": "[App name]",
+    "newText": "App not connected"
+  },
+  {
+    "file": "public/kernel/SettingsWeb.html",
+    "oldText": "[Folder path]",
+    "newText": "No folder selected"
+  },
+  {
+    "file": "public/kernel/Solutions.html",
+    "oldText": "“[Customer quote about how Kernel helped their work.]”",
+    "newText": "(unsupported customer testimonial section removed)"
+  },
+  {
+    "file": "public/kernel/Solutions.html",
+    "oldText": "[Name], [Role]",
+    "newText": "(unsupported customer testimonial section removed)"
+  },
+  {
+    "file": "public/kernel/Solutions.html",
+    "oldText": "[Social]",
+    "newText": ""
+  },
+  {
+    "file": "public/kernel/Solutions.html",
+    "oldText": "[Social]",
+    "newText": ""
+  },
+  {
+    "file": "public/kernel/Verify.html",
+    "oldText": "We sent a 6-digit code to [you@example.com]. It expires in 10 minutes.",
+    "newText": "Draft for review by a qualified lawyer before publication. See the replacement draft in Verify.html."
+  }
+]

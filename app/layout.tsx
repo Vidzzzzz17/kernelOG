@@ -3,9 +3,8 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Kernel — Your thinking partner',
-  description: 'Kernel is a thoughtful AI assistant for learning, building, and exploring.',
-  generator: 'v0.app',
+  title: 'Kernel — Local AI chat',
+  description: 'Kernel is a chatbot for local Ollama models, with chats saved in the database configured by the person running the app.',
   manifest: '/manifest.webmanifest',
   icons: {
     icon: [
