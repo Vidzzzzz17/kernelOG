@@ -1,5 +1,5 @@
-import { redirect } from "next/navigation"
+import { KernelChat } from "@/components/kernel-chat"
 
 export default function Page() {
-  redirect("/kernel/Main.html")
+  return <KernelChat />
 }
