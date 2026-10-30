@@ -7,12 +7,15 @@ import {
   Check,
   ChevronDown,
   CircleHelp,
+  Database,
   ExternalLink,
   Menu,
   MessageSquareText,
   Plus,
   Server,
+  Settings2,
   Sparkles,
+  X,
 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import {
@@ -33,6 +36,7 @@ import {
   MessageScrollerProvider,
   MessageScrollerViewport,
 } from "@/components/ui/message-scroller"
+import { Dialog } from "@base-ui/react/dialog"
 import { cn } from "@/lib/utils"
 
 type Model = { name: string; size?: number; parameterSize?: string }
@@ -433,15 +437,111 @@ export function KernelChat() {
           <div className="flex items-center gap-2">
             <span className={cn("size-2 rounded-full", modelStatus?.connected ? "bg-emerald-500" : "bg-amber-500")} aria-hidden="true" />
             <span className="hidden text-xs text-muted-foreground sm:inline" role="status" aria-live="polite">{connectionLabel}</span>
-            <Button
-              type="button"
-              variant="ghost"
-              size="sm"
-              className="hidden sm:inline-flex"
-              onClick={() => void refreshModels()}
-            >
-              Refresh
-            </Button>
+            <Dialog.Root>
+              <Dialog.Trigger
+                render={
+                  <Button
+                    type="button"
+                    variant="ghost"
+                    size="sm"
+                    className="size-8 px-0 sm:h-8 sm:w-auto sm:px-2.5"
+                    aria-label="Open settings"
+                    title="Open settings"
+                  />
+                }
+              >
+                <Settings2 data-icon="inline-start" />
+                <span className="hidden sm:inline">Settings</span>
+              </Dialog.Trigger>
+              <Dialog.Portal>
+                <Dialog.Backdrop className="fixed inset-0 z-50 bg-background/70 backdrop-blur-sm" />
+                <Dialog.Viewport className="fixed inset-0 z-50 flex items-end justify-center sm:items-center sm:p-4">
+                  <Dialog.Popup className="relative flex max-h-[90dvh] w-full flex-col gap-5 overflow-y-auto rounded-t-2xl border border-border bg-popover p-5 pb-[max(1.25rem,env(safe-area-inset-bottom))] text-popover-foreground shadow-xl outline-none sm:max-h-[min(85dvh,44rem)] sm:max-w-lg sm:rounded-2xl sm:p-6">
+                    <div className="flex flex-col gap-1.5 pr-10">
+                      <Dialog.Title className="text-lg font-semibold tracking-tight">Settings</Dialog.Title>
+                      <Dialog.Description className="text-sm leading-relaxed text-muted-foreground">
+                        Manage your local model connection and chat preferences.
+                      </Dialog.Description>
+                    </div>
+                    <Dialog.Close
+                      render={
+                        <Button
+                          type="button"
+                          variant="ghost"
+                          size="icon-sm"
+                          className="absolute right-3 top-3"
+                          aria-label="Close settings"
+                        />
+                      }
+                    >
+                      <X data-icon="inline-start" aria-hidden="true" />
+                    </Dialog.Close>
+                    <section className="flex flex-col gap-4 rounded-xl border border-border bg-card p-4" aria-labelledby="ollama-status-heading">
+                      <div className="flex items-start gap-3">
+                        <Server className="mt-0.5 size-4 shrink-0 text-muted-foreground" aria-hidden="true" />
+                        <div className="min-w-0 flex-1">
+                          <div className="flex flex-wrap items-center justify-between gap-2">
+                            <h2 id="ollama-status-heading" className="text-sm font-medium">Ollama connection</h2>
+                            <span className="inline-flex items-center gap-2 text-xs text-muted-foreground" role="status" aria-live="polite">
+                              <span className={cn("size-2 rounded-full", modelStatus?.connected ? "bg-emerald-500" : "bg-amber-500")} aria-hidden="true" />
+                              {connectionLabel}
+                            </span>
+                          </div>
+                          <p className="mt-1 text-xs leading-relaxed text-muted-foreground">
+                            {modelStatus?.connected
+                              ? "Your configured Ollama server is reachable."
+                              : modelStatus?.error || "Kernel cannot reach the Ollama server configured for this app."}
+                          </p>
+                        </div>
+                      </div>
+                      <div className="flex flex-col gap-2">
+                        <label htmlFor="settings-model-select" className="text-sm font-medium">Active model</label>
+                        <select
+                          id="settings-model-select"
+                          value={selectedModel}
+                          onChange={(event) => chooseModel(event.target.value)}
+                          disabled={!modelStatus?.models.length}
+                          className="h-10 w-full appearance-none rounded-lg border border-input bg-background px-3 text-sm outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:text-muted-foreground"
+                        >
+                          {modelStatus?.models.length ? (
+                            modelStatus.models.map((model) => <option key={model.name} value={model.name}>{model.name}</option>)
+                          ) : (
+                            <option value="">No local models</option>
+                          )}
+                        </select>
+                        <p className="text-xs leading-relaxed text-muted-foreground">
+                          Choose which installed model Kernel uses for new messages.
+                        </p>
+                      </div>
+                      <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+                        {!modelStatus?.connected && (
+                          <a
+                            href="https://ollama.com/download"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="inline-flex min-h-10 items-center gap-1.5 text-sm font-medium underline underline-offset-4"
+                          >
+                            Get Ollama <ExternalLink className="size-3.5" aria-hidden="true" />
+                          </a>
+                        )}
+                        <Button type="button" variant="outline" className="w-full sm:w-auto" onClick={() => void refreshModels()}>
+                          Refresh models
+                        </Button>
+                      </div>
+                    </section>
+                    <section className="flex items-start gap-3 rounded-xl bg-muted/50 p-4" aria-labelledby="history-settings-heading">
+                      <Database className="mt-0.5 size-4 shrink-0 text-muted-foreground" aria-hidden="true" />
+                      <div>
+                        <h2 id="history-settings-heading" className="text-sm font-medium">Conversation storage</h2>
+                        <p className="mt-1 text-xs leading-relaxed text-muted-foreground">
+                          Chat history is saved in the database configured for this Kernel instance.
+                        </p>
+                      </div>
+                    </section>
+                  </Dialog.Popup>
+                </Dialog.Viewport>
+              </Dialog.Portal>
+            </Dialog.Root>
           </div>
         </header>
 
