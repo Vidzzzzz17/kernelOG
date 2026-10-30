@@ -3,8 +3,8 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Kernel — Local AI chat',
-  description: 'Kernel is a chatbot for local Ollama models, with chats saved in the database configured by the person running the app.',
+  title: 'Kernel — An AI assistant from Substrate',
+  description: 'An AI assistant for writing, learning, coding and everything in between.',
   manifest: '/manifest.webmanifest',
   icons: {
     icon: [
@@ -26,11 +26,8 @@ export const metadata: Metadata = {
 }
 
 export const viewport: Viewport = {
-  colorScheme: 'light dark',
-  themeColor: [
-    { media: '(prefers-color-scheme: light)', color: 'white' },
-    { media: '(prefers-color-scheme: dark)', color: 'black' },
-  ],
+  colorScheme: 'light',
+  themeColor: '#FFFFFF',
 }
 
 export default function RootLayout({
@@ -39,7 +36,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="light">
       <body className="antialiased">
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
