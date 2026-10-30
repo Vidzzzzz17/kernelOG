@@ -38,6 +38,7 @@ import {
 } from "@/components/ui/message-scroller"
 import { Dialog } from "@base-ui/react/dialog"
 import { cn } from "@/lib/utils"
+import { KernelChatModal } from "@/components/kernel-chat-modal"
 
 type Model = { name: string; size?: number; parameterSize?: string }
 type ModelStatus = { connected: boolean; models: Model[]; error?: string }
@@ -437,6 +438,18 @@ export function KernelChat() {
           <div className="flex items-center gap-2">
             <span className={cn("size-2 rounded-full", modelStatus?.connected ? "bg-emerald-500" : "bg-amber-500")} aria-hidden="true" />
             <span className="hidden text-xs text-muted-foreground sm:inline" role="status" aria-live="polite">{connectionLabel}</span>
+            <KernelChatModal
+              messages={visibleMessages}
+              draft={draft}
+              isSending={isSending}
+              canSend={Boolean(modelStatus?.connected && selectedModel)}
+              requestError={requestError}
+              copiedMessageId={copiedMessageId}
+              onDraftChange={setDraft}
+              onSubmit={(event) => void submitMessage(event)}
+              onKeyDown={handleComposerKeyDown}
+              onCopy={(message) => void copyMessage(message)}
+            />
             <Dialog.Root>
               <Dialog.Trigger
                 render={
